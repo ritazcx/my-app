@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
@@ -54,56 +54,56 @@ body {
   width: 100%;
 }
 
-.task {
-  background: #f4f4f4;
+.book-list {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book {
+  height: 250px;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
-.task.reminder {
-  border-left: 5px solid green;
+.image {
+  width: 30%;
+  height: 100%;
+  float: left;
 }
 
-.task h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+img {
+  width:auto;
+  height:80%;
+  object-fit:cover;
 }
 
-.add-form {
-  margin-bottom: 40px;
-}
-
-.form-control {
-  margin: 20px 0;
-}
-
-.form-control label {
-  display: block;
-}
-
-.form-control input {
+.book-content {
   width: 100%;
-  height: 40px;
-  margin: 5px;
-  padding: 3px 7px;
-  font-size: 17px;
+  height: 90%;
+  float: inline-end;
+  padding-left: 10%;
 }
 
-.form-control-check {
+.book-content h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.form-control-check label {
-  flex: 1;
-}
+.book-content p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
 
-.form-control-check input {
-  flex: 2;
-  height: 20px;
 }
 
 footer {
